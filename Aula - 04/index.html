@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aula - 04 </title>
+</head>
+<body>
+    <h1> Principais Formatações </h1>
+    <h2> Negrito / Destaque </h2>
+    <p> Na frase temos uma <b>parte do texto  em negrito</b> usando a tag B (não semântica)</p>
+    <p> Na frase temos uma <strong>parte do texto  em negrito</strong> usando a tag strong (com semântica)</p>
+
+    <h2> Itálico / Ênfase </h2>
+    <p> Nesta frase vamos entrar com uma palavra em <i>itálico</i> usando a tag i (não semântica)</p>
+    <p> Nesta frase vamos entrar com uma palavra em <EM>itálico</EM> usando a tag EM (com semântica)</p>
+
+    <h2> Texto Marcador </h2>
+    <p> Aqui vamos usar um texto com destaque <mark style="background-color: green;">de marcador de texto</mark > usando mark </p>
+    <p> Aqui vamos usar um texto com destaque <mark>de marcador de texto</mark> usando mark </p>
+
+    <h2> Texto Grande e Pequeno </h2>
+    <p> Estamos trabalhando aqui com um <big>texto grande</big> e um <small>texto pequeno</small> nesta frase </p>
+
+    <h2> Texto Deletado </h2>
+    <p> Neste parágrafo vamos trabalhar com um texto <del>que foi excluído</del> da frase (forma semântica)</p>
+
+    <h2> Texto Inserido </h2>
+    <p> Nesta frase vamos demonstrar como <ins>destacar um texto inserido</ins> na frase de forma semântica</p>
+    <p> Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma não semântica</p>
+
+    <h2> Texto Sobrescrito </h2>
+    <p> Vamos demonstrar uma fórmula da equação do segundo grau ax<sup>2</sup> + bx + c= 0 usando a tag sup </p>
+
+    <h2> Texto Subescrito </h2>
+    <p> Vamos demonstrar o texto subescrito com a fórmula da água H<sub>2</sub>O </p>
+
+    <h2> Trecho Código Fonte </h2>
+    <code> <pre> 
+        
+    import math
+
+    def equacao_segundo_grau(a, b, c):
+    if a == 0:
+    return "Não é equação do segundo grau."
+
+    delta = b**2 - 4*a*c
+
+    if delta < 0:
+    return "A equação não possui raízes reais."
+
+    x1 = (-b + math.sqrt(delta)) / (2*a)
+    x2 = (-b - math.sqrt(delta)) / (2*a)
+
+    return x1, x2
+    </pre></code>
+
+    <h2> Citações (quotation) Simples </h2>
+    <p> Segundo Steve Jobs <q>A tecnologia move o mundo</q> </p>
+
+    <h2> Citações Completas (livros) </h2>
+    <p> Segundo Chico Buarque no seu livro Budapeste</p>
+    
+    <blockquote cite="https://www.frasesfamosas.com.br/s-livro/budapeste/">“Budapeste, cortada por um rio. O Danúbio, pensei, era o Danúbio mas não era azul, era amarelo, a cidade toda era amarela, os telhados, o asfalto, os parques, engraçado isso, uma cidade amarela, eu pensava que Budapeste fosse cinzenta, mas Budapeste era amarela.”</blockquote>
+    
+</body>
+</html>
