@@ -1,0 +1,7 @@
+tbody {background-color: rgb(255, 255, 255);color: rgb(0, 0, 0);}
+thead {background-color: rgb(16, 2, 52); color: antiquewhite;}
+tfoot {background-color: rgb(16,2,52);color: rgb(255, 253, 253);}
+table { border-collapse: collapse;}
+td {padding: 15px; text-align: left;}
+th {padding: 15px; text-align: left;}
+body {background-color: rgb(241, 241, 241);}
