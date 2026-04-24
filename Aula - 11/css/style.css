@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(to right, #0564a2, #077f90, #36b6ed, #49d5de, #9cb4c4);
+}
+
+.retangulo {
+    width: 600px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 50px;
+    box-shadow: 30px 30px 50px;
+} 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+
+h1 {color: #0564a2; text-shadow: 5px 5px 3px#9cb4c4;
+    text-align: center;
+}
+
+h2 {
+    color: #077f90; text-shadow:5px 5px 5px #9cb4c4
+}
+
+p {
+    text-align: justify;
+}
