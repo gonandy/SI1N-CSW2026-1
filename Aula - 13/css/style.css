@@ -1,0 +1,108 @@
+body { 
+    background-color:lightgray;
+}
+
+header {
+   border: 5px solid darkblue;
+   border-radius: 5px;
+   width: auto;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 50px;
+   
+}
+
+.quadrado { 
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: darkblue;
+}
+
+.grupo {
+    display: flex;
+    margin: 20px;
+}
+.item {
+    width: 30px;
+    height: 1px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: darkblue;
+}
+
+main {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 10px;
+}
+
+.line1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 10px;
+}
+.card {
+    width: 21%;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: gray;
+
+}
+
+.line2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 10px;
+
+}
+
+.box {
+    width: 14%;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.line3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 10px;
+}
+
+.large {
+    width: 45%;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.self {
+    width: 24%;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: gray;
+}
